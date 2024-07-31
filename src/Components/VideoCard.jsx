@@ -20,6 +20,16 @@ const VideoCard = ({ info }) => {
 } else {
   return <div>Loading...</div>; 
 }
+
+
+
 };
+export const AddVideoCard = ({info})=>{
+  return(
+    <div className='p-1 m-1 border border-red-500'>
+      <VideoCard info={info}/>
+    </div>
+  )
+}
 
 export default VideoCard;
