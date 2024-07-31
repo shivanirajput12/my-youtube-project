@@ -4,7 +4,7 @@ import VideosContainer from './VideosContainer'
 
 const MainContainer = () => {
   return (
-    <div className='flex'>
+    <div>
     <ButtonsList/>
     <VideosContainer/>
     </div>
