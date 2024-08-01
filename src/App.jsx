@@ -23,26 +23,26 @@ const appRouter = createBrowserRouter([{
 }])
 function App() {
   return (
-    <div className="App">
-      <Provider store={store}>
-      <Header/>
-      <RouterProvider router={appRouter}/>
+     <Provider store={store}>
+      <div>
+        <Header />
+        <RouterProvider router={appRouter} />
 
-      {/* 
-       head
-       body
-        --sidebar
-            --menuItems
-        --maincontainer
-            buttonList
-            videoContainer
-               --videoCard
-    
-
-      
-      */}
-      </Provider>
-    </div>
+        {/**
+         *
+         * Head
+         * Body
+         *  Sidebar
+         *    MenuItems
+         *  MainContainer
+         *    ButtonsList
+         *    VideoContainer
+         *      VideoCard
+         *
+         *
+         */}
+      </div>
+    </Provider>
   );
 }
 

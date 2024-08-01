@@ -10,6 +10,7 @@ const Header = () => {
   const [showSuggetions, setShowSuggetions] = useState(false);
   const searchCache = useSelector((store) => store.search);
   const dispatch = useDispatch();
+  
   useEffect(() => {
     //API call
     const timer = setTimeout(() => {
